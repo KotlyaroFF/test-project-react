@@ -1,13 +1,14 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+ /* global */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import "./cssGlobal/variables.scss";
+@import "./cssGlobal/global.scss";
+@import "./cssGlobal/font.scss";
+
+/* components */
+
+@import "./components/CatalogCard/CatalogCard.scss";
+@import "./components/Cataloglist/Cataloglist.scss";
+@import "./components/Discription/Discription.scss";
+@import "./components/Downtext/Downtext.scss";
+@import "./components/Tegline/Tegline.scss";
+@import "./components/Value/Value.scss";

@@ -1,0 +1,33 @@
+.catalog__item {
+  height: 509px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    margin: 20px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.catalog__card {
+  width: 320px;
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.catalog__card__decor {
+  height: 44px;
+  width: 44px;
+  background: linear-gradient(-45deg,white,white 28.5px,#1698D9 0,#1698D9 32px,transparent 0);
+  position: absolute;
+}
