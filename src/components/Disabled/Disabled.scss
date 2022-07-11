@@ -1,0 +1,42 @@
+.catalog__item--disabled {
+  color: #B3B3B3;
+}
+
+.catalog__item--disabled .discription {
+
+  border: 4px #B3B3B3 solid;
+  border-top: none;
+}
+
+.catalog__item--disabled .discription::after {
+  background-color: #FFFFFF;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+
+.catalog__item--disabled .value {
+  border: 1px solid #B3B3B3;
+  background-color: #B3B3B3;
+}
+
+.catalog__item--disabled .catalog__card__decor {
+  background: linear-gradient(-45deg,#FFFFFF,#FFFFFF 28.5px,#B3B3B3 0,#B3B3B3 32px,transparent 0);
+}
+
+.catalog__item--disabled .tagline {
+  border-right: 4px #B3B3B3 solid;
+  border-top: 4px #B3B3B3 solid;
+  color: #B3B3B3;
+}
+
+.catalog__item--disabled .downtext {
+  color: #FFFF66;
+}
+

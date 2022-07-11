@@ -1,0 +1,20 @@
+
+.catalog__item--selected .discription {
+
+  border: 4px #D91667 solid;
+  border-top: none;
+}
+
+.catalog__item--selected .value {
+  border: 1px solid #D91667;
+  background-color: #D91667;
+}
+
+.catalog__item--selected .catalog__card__decor {
+  background: linear-gradient(-45deg,#FFFFFF,#FFFFFF 28.5px,#D91667 0,#D91667 32px,transparent 0);
+}
+
+.catalog__item--selected .catalog__card__tagline {
+  border-right: 4px #D91667 solid;
+  border-top: 4px #D91667 solid;
+}
